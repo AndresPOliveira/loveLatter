@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Latter</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body onload="loadText()">
+  <header>
+    <ol>
+      <li ><a href="#index">Mensagens</a></li>
+      <li ><a href="#imagens">Momentos</a> </li>
+      <li> <a href="#aventura"> Passeios</a></li>
+    </ol>
+  </header>
+  <div class="content_msg" id="index">
+    <h1>
+      Todo dia um eu te amo diferente:
+    </h1>
+    <div class="msgs" id="imgs">
+      <h2 id="title"></h2>
+      <span id="content"></span>
+    </div>
+  </div>
+  <h2 id="imagens">
+    Nossos Momentos:
+  </h2>
+  <div class="content_img" >
+    <div class="imgsWrapper">
+      <swiper-container style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="mySwiper"
+    zoom="true" navigation="true" pagination="true" pagination-clickable="true">
+    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f1.jpg" />
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f2.jpg" />
+      </div>
+    </swiper-slide>
+    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f3.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f4.jpg" />
+      </div>
+    </swiper-slide>    
+    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f5.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f6.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f7.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f8.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f9.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f10.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f11.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f12.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f13.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f14.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f15.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f16.jpg" />
+      </div>
+    </swiper-slide>   <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f18.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f19.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f20.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f21.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f22.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f23.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f24.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f25.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f26.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f27.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f28.jpg" />
+      </div>
+    </swiper-slide>    <swiper-slide>
+      <div class="swiper-zoom-container">
+        <img src="assets/f29.jpg" />
+      </div>
+    </swiper-slide>
+  </swiper-container>
+    </div>
+  </div>
+  <div class="content_passeio" id="aventura">
+    <h2>SORTEADOR DE PASSEIOS</h2>
+    <div class="passseio">
+      <span id="sorteador" onclick="passeio()">SORTEAR PASSEIO</span>
+      <img src="assets/passeios/default3.png" alt="" id="resultado">
+    </div>
+  </div>
+</body>
+</html>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>

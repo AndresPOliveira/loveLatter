@@ -1,0 +1,130 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  text-decoration: none;
+  word-break: keep-all;
+  font-family: roboto;
+}
+
+body{
+  width: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+a{
+  color: #fff;
+}
+header{
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 14px;
+  width: 95%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(209, 128, 247);
+}
+
+ol{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 25px;
+  font-weight: 500;
+}
+
+.content_msg {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.content_msg h1{
+  font-size: 20px;
+}
+
+.msgs{
+  padding: 15px 0px;
+  width: 95%;
+  background-color: rgb(240, 219, 250);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#content{
+  margin: 20px;
+  text-align: justify;
+}
+
+.content_img{
+  padding: 20px 0px;
+  width: 95%;
+  background-color: rgb(240, 219, 250);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+swiper-container {
+  border-radius: 14px;
+  width: 320px;
+  height: 320px;
+}
+
+swiper-slide {
+  overflow: hidden;
+}
+.content_passeio{
+  width: 100%;
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.passseio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(240, 219, 250);
+  width: 95%;
+  height: 330px;
+  border-radius: 14px;
+  margin-bottom: 40px;
+}
+
+#sorteador{
+  color: #fff;
+  font-weight: 600;
+  background-color: rgb(209, 128, 247);
+  border-radius: 14px;
+  display: flex;
+  margin-top: 30px;
+  width: 230px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+#sorteador:hover{
+  background-color: rgb(143, 0, 136);
+}
+
+#resultado{
+  border-radius: 14px;
+  margin-top: 20px;
+  width: 200px;
+  height: 200px;
+}
